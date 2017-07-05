@@ -10,7 +10,7 @@ type token struct {
 const (
 	// ILLEGAL signifies a token/character we don't know
 	ILLEGAL = "ILLEGAL"
-	/*  EOF stands for gg"end of file", which tells our parser
+	/*  EOF stands for "end of file", which tells our parser
 	    later on that it can stop. */
 	EOF = "EOF"
 	// Identifiers + literals
